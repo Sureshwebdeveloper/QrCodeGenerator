@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+  .btn-base {
+    @apply px-3 py-[10px]   flex m-3 items-center justify-center  rounded-xl text-white flex-wrap
+    /* padding: 8px 10px;
+    margin: 15px 20px 15px 20px;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center; */
+  }
+  .input-base {
+    border: none;
+    outline: 1px solid black;
+  }
+}
